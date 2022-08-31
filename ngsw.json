@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1661928633019,
+  "index": "/marianaissa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/marianaissa/favicon.ico",
+        "/marianaissa/index.html",
+        "/marianaissa/main.128773b0e66d5d1d.js",
+        "/marianaissa/manifest.webmanifest",
+        "/marianaissa/polyfills.a7ffaccb7c98c45b.js",
+        "/marianaissa/runtime.abe8847bcd4fe8dd.js",
+        "/marianaissa/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/marianaissa/assets/icons/icon-128x128.png",
+        "/marianaissa/assets/icons/icon-144x144.png",
+        "/marianaissa/assets/icons/icon-152x152.png",
+        "/marianaissa/assets/icons/icon-192x192.png",
+        "/marianaissa/assets/icons/icon-384x384.png",
+        "/marianaissa/assets/icons/icon-512x512.png",
+        "/marianaissa/assets/icons/icon-72x72.png",
+        "/marianaissa/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/marianaissa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/marianaissa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/marianaissa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/marianaissa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/marianaissa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/marianaissa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/marianaissa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/marianaissa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/marianaissa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/marianaissa/index.html": "52d6c433dbcd3a37363f163d583d94fc467ef527",
+    "/marianaissa/main.128773b0e66d5d1d.js": "b6b8cfb7e2eecc6995445462eb038584690520d4",
+    "/marianaissa/manifest.webmanifest": "cfed3ffd477e2ab7bf50bf04191821b507fe01f5",
+    "/marianaissa/polyfills.a7ffaccb7c98c45b.js": "17972b9db0ed5d7457b63b5b51b49e984ea7c3ea",
+    "/marianaissa/runtime.abe8847bcd4fe8dd.js": "77398bf681078cca93da39041ac437135511e235",
+    "/marianaissa/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
