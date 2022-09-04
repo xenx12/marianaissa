@@ -1,0 +1,52 @@
+.example-card {
+
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  width: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+.titulocarta{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.contenidocarta{
+  text-align: justify;
+}
+
+.botonws{
+
+  padding: 12px 30px;
+              background: #25d366;
+              border-radius: 5px;
+              color: #ffffff;
+              font-size: 16px;
+              
+              width: 15;
+}
+
+.botoncarrito{
+  float: left;
+  padding: 12px ;
+  padding-right: 22.5px;
+  padding-left: 22.5px;
+              background: #282928;
+              border-radius: 5px;
+              color: #ffffff;
+              font-size: 16px;
+             min-width: none;
+              width: 15px;
+              
+}
+
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
