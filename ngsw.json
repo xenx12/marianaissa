@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1661928633019,
+  "timestamp": 1662280961960,
   "index": "/marianaissa/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/marianaissa/favicon.ico",
         "/marianaissa/index.html",
-        "/marianaissa/main.128773b0e66d5d1d.js",
+        "/marianaissa/main.1b5ff3c433212013.js",
         "/marianaissa/manifest.webmanifest",
         "/marianaissa/polyfills.a7ffaccb7c98c45b.js",
         "/marianaissa/runtime.abe8847bcd4fe8dd.js",
-        "/marianaissa/styles.ef46db3751d8e999.css"
+        "/marianaissa/styles.dab3a5f2260a7f6c.css"
       ],
       "patterns": []
     },
@@ -52,12 +52,12 @@
     "/marianaissa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/marianaissa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/marianaissa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/marianaissa/index.html": "52d6c433dbcd3a37363f163d583d94fc467ef527",
-    "/marianaissa/main.128773b0e66d5d1d.js": "b6b8cfb7e2eecc6995445462eb038584690520d4",
+    "/marianaissa/index.html": "37876abce5accc2c995cce484a5e53031379041a",
+    "/marianaissa/main.1b5ff3c433212013.js": "6eec89c06cd97427eb8ea08c5816e091099cae9c",
     "/marianaissa/manifest.webmanifest": "cfed3ffd477e2ab7bf50bf04191821b507fe01f5",
     "/marianaissa/polyfills.a7ffaccb7c98c45b.js": "17972b9db0ed5d7457b63b5b51b49e984ea7c3ea",
     "/marianaissa/runtime.abe8847bcd4fe8dd.js": "77398bf681078cca93da39041ac437135511e235",
-    "/marianaissa/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/marianaissa/styles.dab3a5f2260a7f6c.css": "dde9f25c4b04d830bec2864369a0f3a8260d009c"
   },
   "navigationUrls": [
     {
