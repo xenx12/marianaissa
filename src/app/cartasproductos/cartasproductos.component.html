@@ -1,12 +1,12 @@
-
-        <mat-card class="example-card">
+      
+        <mat-card *ngFor="let producto of productos" class="example-card">
             <mat-card-header class="titulocarta">
-              <mat-card-title > Máquina De Corte A6 Slim</mat-card-title>
+              <mat-card-title >{{  producto.titulo }} </mat-card-title>
             </mat-card-header>
-            <img mat-card-image src="https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1810348_1_2000x.jpg?v=1618258338" alt="Photo of a Shiba Inu">
+            <img mat-card-image src="{{  producto.img }}" alt="Photo of a Shiba Inu">
             <mat-card-content class="contenidocarta">
-              <h1>$169.990</h1>
-              <p>Máquina Oster para el corte de pelo en peluquería canina y felina. </p>
+              <h1>{{  producto.precio}} </h1>
+              <p>{{  producto.textocorto }} </p>
               <div style="background-color: black;">
                 
               </div>
@@ -20,7 +20,7 @@
                     </mat-panel-title>
                     <mat-icon aria-hidden="false" aria-label="Expand More icon" fontIcon="expand_more" style=" float: right; position: relative;"></mat-icon>
                   </mat-expansion-panel-header>
-                  <p>Máquina Oster para el corte de pelo en peluquería canina y felina. Silenciosa y mínima vibración. Ligera y ergonómica. Suave al tacto. 3 velocidades: 3.100/3.600/4.100 rpm. Peso: 350 g. Medidas: 17,5 x 4,5 x 4,1 cm. Longitud del cable: 3,66 m.</p>
+                  <p>{{  producto.caracteristicas }} </p>
                 </mat-expansion-panel>
                 
               </mat-accordion>
@@ -36,26 +36,7 @@
             </mat-card-actions>
           </mat-card>
 
-          <mat-card class="example-card">
-            <mat-card-header>
-              <mat-card-title>Shiba Inu</mat-card-title>
-            </mat-card-header>
-            <img mat-card-image src="https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1810348_1_2000x.jpg?v=1618258338" alt="Photo of a Shiba Inu">
-            <mat-card-content>
-              <p>
-                The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-                A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-                bred for hunting.
-              </p>
-            </mat-card-content>
-            <mat-card-actions>
-              <button mat-button class="botonws">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg_wapp_evowap" x="0px" y="0px" width="25px" height="25px" viewBox="0 0 90 90" style="enable-background:new 0 0 90 90;" xml:space="preserve"><path id="WhatsApp" d="M90,43.841c0,24.213-19.779,43.841-44.182,43.841c-7.747,0-15.025-1.98-21.357-5.455L0,90l7.975-23.522 c-4.023-6.606-6.34-14.354-6.34-22.637C1.635,19.628,21.416,0,45.818,0C70.223,0,90,19.628,90,43.841z M45.818,6.982 c-20.484,0-37.146,16.535-37.146,36.859c0,8.065,2.629,15.534,7.076,21.61L11.107,79.14l14.275-4.537 c5.865,3.851,12.891,6.097,20.437,6.097c20.481,0,37.146-16.533,37.146-36.857S66.301,6.982,45.818,6.982z M68.129,53.938 c-0.273-0.447-0.994-0.717-2.076-1.254c-1.084-0.537-6.41-3.138-7.4-3.495c-0.993-0.358-1.717-0.538-2.438,0.537 c-0.721,1.076-2.797,3.495-3.43,4.212c-0.632,0.719-1.263,0.809-2.347,0.271c-1.082-0.537-4.571-1.673-8.708-5.333 c-3.219-2.848-5.393-6.364-6.025-7.441c-0.631-1.075-0.066-1.656,0.475-2.191c0.488-0.482,1.084-1.255,1.625-1.882 c0.543-0.628,0.723-1.075,1.082-1.793c0.363-0.717,0.182-1.344-0.09-1.883c-0.27-0.537-2.438-5.825-3.34-7.977 c-0.902-2.15-1.803-1.792-2.436-1.792c-0.631,0-1.354-0.09-2.076-0.09c-0.722,0-1.896,0.269-2.889,1.344 c-0.992,1.076-3.789,3.676-3.789,8.963c0,5.288,3.879,10.397,4.422,11.113c0.541,0.716,7.49,11.92,18.5,16.223 C58.2,65.771,58.2,64.336,60.186,64.156c1.984-0.179,6.406-2.599,7.312-5.107C68.398,56.537,68.398,54.386,68.129,53.938z" fill="#FFFFFF"></path></svg>
-                
-                LIKE2</button>
-              <button mat-button>SHARE</button>
-            </mat-card-actions>
-          </mat-card>
+          
           
     
 
