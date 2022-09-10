@@ -14,12 +14,17 @@ import { MatCardModule } from '@angular/material/card';
 import { CartasproductosComponent } from './cartasproductos/cartasproductos.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { IconmenuComponent } from './iconmenu/iconmenu.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatListModule } from '@angular/material/list';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CartasproductosComponent
+    CartasproductosComponent,
+    IconmenuComponent
   ],
   imports: [
     BrowserModule,
@@ -37,9 +42,12 @@ import { MatExpansionModule } from '@angular/material/expansion';
     MatSidenavModule,
     MatCardModule,
     MatGridListModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatFormFieldModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
