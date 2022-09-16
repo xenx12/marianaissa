@@ -1,4 +1,7 @@
-  .scroll{
+html{
+    scroll-behavior: smooth;
+}
+.scroll{
     width: 100%;
     margin: 0; 
     overflow-x: scroll;
@@ -9,7 +12,13 @@
   .main-elementos{
     display: flex;
     width: 11rem;
-    padding-bottom: 1.3rem;
+    padding-bottom: 1.3rem;    
+  }
+  .main-elementos a {
+    transition: .2 ease-in-out all;
+  }
+  .indicador{
+    border: ;
   }
  
 .elementos{
