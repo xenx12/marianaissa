@@ -1,0 +1,29 @@
+[  
+    {  
+      "id": 1,  
+      "titulo": "Máquina De Corte A6 Slim",
+      "img": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1810348_1_800x.jpg?v=1618258338", 
+      "textocorto": "Máquina Oster para el corte de pelo en peluquería canina y felina.", 
+      "caracteristicas": "Máquina Oster para el corte de pelo en peluquería canina y felina. Silenciosa y mínima vibración. Ligera y ergonómica. Suave al tacto. 3 velocidades: 3.100/3.600/4.100 rpm. Peso: 350 g. Medidas: 17,5 x 4,5 x 4,1 cm. Longitud del cable: 3,66 m.",  
+      "precio": "$169.990",
+      "categoria": 0  
+    },  
+    {  
+        "id": 2,  
+        "titulo": "Máquina Corte De Cabello 606-95 Oster",
+        "img": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1810004_800x.jpg?v=1639493709", 
+        "textocorto": "Máquina de corte de cabello, potente motor de giro silencioso.", 
+        "caracteristicas": "Máquina de corte de cabello, potente motor de giro silencioso, solo se requiere una cuchilla, con función de cuchilla ajustable que permite un cambio rápido de longitud de 0,1 a 3mm, de fácil manejo y cómoda.",  
+        "precio": "$85.990",
+        "categoria": 0    
+      },
+      {  
+        "id": 3,  
+        "titulo": "Tijera Esculpidora 9623",
+        "img": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1110012_1_2000x.jpg?v=1610541870", 
+        "textocorto": "Tijera esculpidora con dientes en un lado y el otro liso para cortar de medios a puntas.", 
+        "caracteristicas": "Tijera esculpidora con dientes en un lado y el otro liso para cortar de medios a puntas.",  
+        "precio": "$11.990",
+        "categoria": 1    
+      }
+  ]  
