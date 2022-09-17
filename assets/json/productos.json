@@ -25,5 +25,14 @@
         "caracteristicas": "Tijera esculpidora con dientes en un lado y el otro liso para cortar de medios a puntas.",  
         "precio": "$11.990",
         "categoria": 1    
+      },
+      {  
+        "id": 4,  
+        "titulo": "Tormalionic 3500 Negro",
+        "img": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1340124_5000x.jpg?v=1655744118", 
+        "textocorto": "Secador ultra potente de 2500 W con caudal y presión de aire máximos", 
+        "caracteristicas": "Secador ultra potente de 2500 W con caudal y presión de aire máximos La rejilla recubierta de turmalina propicia la ionización natural del aire Cabello más hidratado brillante y luminoso.",  
+        "precio": "$79.900",
+        "categoria": 2 
       }
   ]  
