@@ -13,4 +13,4 @@
     </button>-->
   </mat-toolbar>
 <iconmenu></iconmenu>
-<app-cartasproductos></app-cartasproductos>
+<app-cartasproductos [productos]="Todosproductos" [categoria]="Generalcategoria" (Eventocambiarcategoria)="Cambiarcategoria($event)"></app-cartasproductos>
