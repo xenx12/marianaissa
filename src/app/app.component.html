@@ -1,16 +1,45 @@
- <mat-toolbar color="primary">
+
+
+
+<mat-toolbar color="primary">
+
+  <button mat-icon-button class="example-icon" (click)="sidenav.toggle()" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+
     <span>Mariana Issa</span>
     <span class="example-spacer">2</span>
-    <!--<button mat-icon-button class="example-icon" (click)="drawer.toggle()" aria-label="Example icon-button with menu icon">
-      <mat-icon>menu</mat-icon>
-    </button>
+
+     
     
+    <!--
     <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
       <mat-icon>favorite</mat-icon>
     </button>
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
       <mat-icon>share</mat-icon>
     </button>-->
+
+    
+
   </mat-toolbar>
+ 
+  <mat-sidenav-container class="example-containers" >
+    <mat-sidenav #sidenav mode="push" >
+      <mat-list role="list">
+        <mat-list-item role="listitem"><button mat-button (click)="Cambiarcategoria(1); sidenav.toggle()" >Tijeras</button></mat-list-item>
+        <mat-list-item role="listitem"><button mat-button (click)="Cambiarcategoria(0); sidenav.toggle()" >Maquinas</button></mat-list-item>
+        <mat-list-item role="listitem"><button mat-button (click)="Cambiarcategoria(2); sidenav.toggle()" >Secadores</button></mat-list-item>
+      </mat-list>
+    </mat-sidenav>
+  
+    <mat-sidenav-content>
+      
+     
+
+
 <iconmenu></iconmenu>
 <app-cartasproductos [productos]="Todosproductos" [categoria]="Generalcategoria" (Eventocambiarcategoria)="Cambiarcategoria($event)"></app-cartasproductos>
+
+</mat-sidenav-content>
+</mat-sidenav-container>

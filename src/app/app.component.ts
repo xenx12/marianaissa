@@ -22,6 +22,14 @@ export class AppComponent {
 
   Generalcategoria: Number = 0;
 
+  events: string[] = [];
+  opened: boolean = true;
+
+  shouldRun = /(^|.)(stackblitz|webcontainer).(io|com)$/.test(window.location.host);
+
+
+
+
   Cambiarcategoria(numero: number): void{
     this.Generalcategoria = numero;
     
