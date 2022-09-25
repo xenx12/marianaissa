@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1663489083455,
+  "timestamp": 1664093411075,
   "index": "/marianaissa/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/marianaissa/favicon.ico",
         "/marianaissa/index.html",
-        "/marianaissa/main.3787f0d67dc4a7b0.js",
+        "/marianaissa/main.fc2cb22cfd5dd84e.js",
         "/marianaissa/manifest.webmanifest",
         "/marianaissa/polyfills.a7ffaccb7c98c45b.js",
         "/marianaissa/runtime.abe8847bcd4fe8dd.js",
@@ -72,8 +72,8 @@
     "/marianaissa/assets/icons/tijeras.png": "f51092ef8c2c3b4104c529c8c8627982b4538de5",
     "/marianaissa/assets/json/productos.json": "5234df6f02bd48c870ad747ca1628ebe0849daee",
     "/marianaissa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/marianaissa/index.html": "2f83c67c0e247a94ba3d07fcbe3680ceba5ac54b",
-    "/marianaissa/main.3787f0d67dc4a7b0.js": "684cddfb9c471e2a6df61d453e897d956e37a612",
+    "/marianaissa/index.html": "aaa5fed375a2f15d3a55ed23f4a60c4eed28b3e6",
+    "/marianaissa/main.fc2cb22cfd5dd84e.js": "6e6243ebfb302f0e7c597be113be15a24cc69b92",
     "/marianaissa/manifest.webmanifest": "cfed3ffd477e2ab7bf50bf04191821b507fe01f5",
     "/marianaissa/polyfills.a7ffaccb7c98c45b.js": "17972b9db0ed5d7457b63b5b51b49e984ea7c3ea",
     "/marianaissa/runtime.abe8847bcd4fe8dd.js": "77398bf681078cca93da39041ac437135511e235",
