@@ -2,6 +2,14 @@
     flex: 1 1 auto;
   }
 
+  .mat-toolbar {
+    display:flex;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 99999;
+    margin-bottom: 50px;
+}
+
   .example-container {
     position: absolute;
     top: 0;
@@ -32,4 +40,47 @@
     height: 200px;
     overflow: auto;
     border: 1px solid #555;
+  }
+
+  .contenidotemporal{
+    margin-top: 156px;
+  }
+
+  .contenedorcarrito{
+   
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    
+    height: 70%;
+
+    -webkit-box-shadow: -11px 14px 22px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: -11px 14px 22px -5px rgba(0,0,0,0.75);
+box-shadow: -11px 14px 22px -5px rgba(0,0,0,0.75);
+    
+  }
+  mat-sidenav {
+    width: 75%;
+    position: fixed;
+    height: 100%;
+  }
+
+  .seguircomprando{
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 10px;
+  
+  }
+
+  .botonws{
+
+    padding: 12px 30px;
+                background: #25d366;
+                border-radius: 5px;
+                color: #ffffff;
+                font-size: 16px;
+                margin-left: 10px;
+                margin-top: 10px;
+                width: 90%;
   }

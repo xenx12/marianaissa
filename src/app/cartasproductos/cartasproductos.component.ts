@@ -12,6 +12,12 @@ interface Producto {
   categoria: Number;  
 } 
 
+interface Listacarrito {  
+  id: Number;  
+  titulo: String;  
+  cantidad: Number;
+}  
+
 @Component({
   selector: 'app-cartasproductos',
   templateUrl: './cartasproductos.component.html',
@@ -21,18 +27,25 @@ interface Producto {
  
 export class CartasproductosComponent implements OnInit {
   
-  
-  
+
+
+  @Input() listacarrito: Listacarrito[] = [];
+
   @Input() productos: Producto[];
   @Input() categoria: Number;
 
+  //Eventos
   @Output() Eventocambiarcategoria = new EventEmitter<number>();
+  @Output() Eventoaddcarrito= new EventEmitter<String>();
+  @Output() EventoSumarCantidad= new EventEmitter<String>();
+
 
   constructor() { 
-
     this.productos = [];
     this.categoria = 0;
   }
+
+ 
 
   ngOnInit(): void {
 
@@ -41,8 +54,15 @@ export class CartasproductosComponent implements OnInit {
 
   Cambiarcategorias (numero: number ): void {
     this.Eventocambiarcategoria.emit(numero);
+   
+  }
+  
+  Addcarrito (articulo: String ): void {
+    this.Eventoaddcarrito.emit(articulo);
+    
   }
 
+ 
 
 
 }

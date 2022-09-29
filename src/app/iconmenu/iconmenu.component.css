@@ -10,6 +10,10 @@ html{
     scroll-behavior: smooth;
     scrollbar-width: none;
      box-shadow: inset 0 0 0.6rem 0.01rem rgb(44, 41, 41);
+      margin-top: 56px;
+     position: fixed;
+     z-index: 9999;
+     background-color: white;
   }
   .main-elementos{
     display: flex;

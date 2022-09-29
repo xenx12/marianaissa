@@ -1,6 +1,6 @@
 .example-card {
 
-
+  
   margin-top: 15px;
   margin-bottom: 15px;
 
@@ -50,3 +50,4 @@
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
   }
+
