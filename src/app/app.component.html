@@ -17,8 +17,42 @@
       <h2 style="text-align: center;">Mi Carrito</h2>
       
       <div class="contenedorcarrito">
+        
+        
+        <table mat-table class="mat-elevation-z8" >
+
+         <tr>
+            <th mat-header-cell > Articulo </th>
+            <th mat-header-cell > Cantidad </th>
+            
+          </tr>
+          <tr class="mat-row" *ngFor="let lista of Todoslistacarrito; let i = index">
+          <td mat-cell style="width: 55%;"> {{lista.titulo}} </td>
+          <td mat-cell > 
+          
+            <button mat-icon-button color="primary" (click)="RestarCantidad(i)">
+              <mat-icon>remove</mat-icon>
+            </button>
+
+            <span> {{lista.cantidad}} </span>
+            
+            <button mat-icon-button color="primary" (click)="SumarCantidad(lista.titulo)" >
+              <mat-icon>add</mat-icon>
+            </button>  
+            
+          </td>
+          <td mat-cell > <button mat-icon-button  (click)="Eliminararticulo(i)" >
+            <mat-icon>delete</mat-icon>
+        </button> </td>
+
+        </tr>
+
+        
+        </table>
+        
+        <!--
         <mat-list role="list"  >
-          <mat-list-item style="border:solid black 1px; " *ngFor="let lista of Todoslistacarrito; let i = index" role="listitem">
+          <mat-list-item  *ngFor="let lista of Todoslistacarrito; let i = index" role="listitem">
                
                 <span mat-button >{{lista.titulo}}</span>                             
           
@@ -32,15 +66,20 @@
                   <mat-icon>add</mat-icon>
                 </button>  
 
-                <button mat-icon-button  (click)="Eliminararticulo(i)" color="warn">
+                <button mat-icon-button  (click)="Eliminararticulo(i)" >
                     <mat-icon>delete</mat-icon>
                 </button>
-           
+                <mat-divider></mat-divider>
+               
           </mat-list-item>
           
       
-        </mat-list>
+        </mat-list>-->
+        
       </div>
+      <button mat-button class="total" >Total: 100000</button>
+
+      
 
       <button mat-raised-button class="seguircomprando" (click)="CerrarSidenav()">Seguir Comprando</button>
 
@@ -49,8 +88,9 @@
         
         Comprar por WhatsApp</button>
 
+        
     </mat-sidenav>
-  
+ 
     <mat-sidenav-content>
       
      
@@ -62,3 +102,4 @@
 
 </mat-sidenav-content>
 </mat-sidenav-container>
+

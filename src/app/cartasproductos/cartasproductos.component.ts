@@ -30,7 +30,6 @@ export class CartasproductosComponent implements OnInit {
 
 
   @Input() listacarrito: Listacarrito[] = [];
-
   @Input() productos: Producto[];
   @Input() categoria: Number;
 

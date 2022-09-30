@@ -49,13 +49,12 @@ export class AppComponent {
 
   Cambiarcategoria(numero: number): void{
     this.Generalcategoria = numero;
-    
   }
 
   Addcarrito(articulo: String){
 
-
-    
+   
+    //Buscar en el array de datos si esta guardado un ariculo con el nombre que recibimos
     if(this.Todoslistacarrito.findIndex(algo => algo.titulo == articulo) == -1){
       this.Todoslistacarrito.push({
         id: 1,
@@ -70,8 +69,6 @@ export class AppComponent {
 
     }
 
-      
-      
       this.sidenav.open(); //Abre el sidenav del carrito
       //MEJORAR ESTA PARTE
   }
@@ -84,8 +81,7 @@ export class AppComponent {
 
 
   SumarCantidad(identificador: String){
-   // let temporal = this.Todoslistacarrito[Number(identificador)];
-   //alert(this.Todoslistacarrito.findIndex(articulo => articulo.titulo == identificador));
+
     
     let temporal = this.Todoslistacarrito[this.Todoslistacarrito.findIndex(articulo => articulo.titulo == identificador)];
 
