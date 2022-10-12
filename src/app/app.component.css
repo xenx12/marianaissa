@@ -92,3 +92,11 @@ box-shadow: -11px 14px 22px -5px rgba(0,0,0,0.75);
   font-weight: bold;
   background-color: white;
 }
+
+#buscador{
+  position:absolute;
+  margin-right: 0;
+  right: 0;
+  height: 95%;
+  
+}

@@ -8,7 +8,7 @@ interface Producto {
   img: String;  
   textocorto: String;  
   caracteristicas: String;  
-  precio: String;
+  precio: Number;
   categoria: Number;  
 } 
 
@@ -35,7 +35,7 @@ export class CartasproductosComponent implements OnInit {
 
   //Eventos
   @Output() Eventocambiarcategoria = new EventEmitter<number>();
-  @Output() Eventoaddcarrito= new EventEmitter<String>();
+  @Output() Eventoaddcarrito= new EventEmitter<Number>();
   @Output() EventoSumarCantidad= new EventEmitter<String>();
 
 
@@ -56,7 +56,7 @@ export class CartasproductosComponent implements OnInit {
    
   }
   
-  Addcarrito (articulo: String ): void {
+  Addcarrito (articulo: Number ): void {
     this.Eventoaddcarrito.emit(articulo);
     
   }

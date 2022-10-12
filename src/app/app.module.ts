@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +18,10 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { IconmenuComponent } from './iconmenu/iconmenu.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatListModule } from '@angular/material/list';
+import { MatChipsModule } from '@angular/material/chips';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatInputModule } from '@angular/material/input';
 
 
 
@@ -44,7 +49,13 @@ import { MatListModule } from '@angular/material/list';
     MatGridListModule,
     MatExpansionModule,
     MatFormFieldModule,
-    MatListModule
+    MatListModule,
+    MatChipsModule,
+    MatAutocompleteModule,
+    MatSlideToggleModule,
+    MatInputModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
