@@ -3,7 +3,7 @@
 
 <mat-toolbar  color="primary">
 
-  <button mat-icon-button class="example-icon" (click)="sidenav.toggle(); RestaurarBuscar();" aria-label="Example icon-button with shopping_cart icon ">
+  <button mat-icon-button class="example-icon" (click)="sidenav.toggle(); RestaurarBuscar(); " aria-label="Example icon-button with shopping_cart icon ">
     <mat-icon>shopping_cart</mat-icon>
   </button>
 
@@ -22,7 +22,7 @@
       >
   
       <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
-        <mat-option *ngFor="let producto of filCountries | async " [value] = "producto" (click)="MostrarArticulo(producto.categoria)" >
+        <mat-option *ngFor="let producto of filCountries | async " [value] = "producto.titulo" (click)="MostrarArticulo(producto.categoria);  " >
           <a href="#{{producto.id}}">
 
           <img src="{{producto.img}}" width="30px" height="30px" alt="">
@@ -37,7 +37,7 @@
 
   <span class="example-spacer"></span> 
 
-  <button mat-icon-button class="example-icon" >
+  <button mat-icon-button class="example-icon" #BBuscardor >
     <mat-icon (click)="ParaBuscar()" [ngStyle]="{'width': TamanoIcono}">search</mat-icon>
   </button>
 

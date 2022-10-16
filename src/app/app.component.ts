@@ -1,10 +1,12 @@
-import { Component, ViewChild, OnInit } from '@angular/core';
+import { Component, ViewChild, OnInit,Inject } from '@angular/core';
 import productosJson from '../assets/json/productos.json'; 
 import {MatSidenav} from '@angular/material/sidenav';
 import {FormControl} from '@angular/forms';
-import {Observable} from 'rxjs';
+import {Observable, fromEvent} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
 import { MatInput } from '@angular/material/input';
+import { MatButton } from '@angular/material/button';
+import { DOCUMENT, ViewportScroller } from '@angular/common';
 
 
 
@@ -37,7 +39,7 @@ interface Listacarrito {
 
 export class AppComponent {
 
-  countries : string[] = ['España','Ecuador','Venezuela'];
+  //countries : string[] = ['España','Ecuador','Venezuela'];
 
   control = new FormControl();
   filCountries: Observable<any[]> | undefined;
@@ -47,24 +49,35 @@ export class AppComponent {
 
   @ViewChild('Buscador') IBuscador!: MatInput;
   
+  @ViewChild('BotonBuscar') BBuscador!: MatButton;
+  
 
   //PAra Autocompletado
   
   private _filter(val: string): any[]{
     //Pasar el dato a minuscula
     const formatVal = val.toLocaleLowerCase();
-
+    
     return this.Todosproductos.filter(producto => producto.titulo.toLocaleLowerCase().indexOf(formatVal) === 0);
 
-
+    
   }
+
+  /*readonly showScroll$: Observable<boolean> = fromEvent(
+    this.document,
+    'scroll'
+  ).pipe(
+    map(() => this.viewport.getScrollPosition()?.[1] > 0)
+  );*/
 
   ngOnInit() {
     this.filCountries = this.control.valueChanges.pipe(
       startWith(''),
-      map(val => this._filter(val))
+      map(val =>  this._filter(val))
+      
 
     );
+
   }
 
 
@@ -87,10 +100,6 @@ export class AppComponent {
 
   TamanoIcono = '24px';
 
-  //#3f51b5 Color texto
-
-
-
   TextoWs = 'Hola Mariana Issa, Necesito los siguientes porductos: %0A %0A';
 
 
@@ -99,7 +108,7 @@ export class AppComponent {
   events: string[] = [];
   opened: boolean = true;
 
-  constructor(){
+  constructor(@Inject(DOCUMENT) private readonly document: Document, private readonly viewport: ViewportScroller){
 
     this.TotalCarrito = 0;
 
@@ -107,10 +116,30 @@ export class AppComponent {
     
   }
 
+  onScrollToTop(): void {
+    //this.viewport.scrollToPosition([0, 0]);
+      //alert(this.viewport.getScrollPosition());
+
+      const estescroll =this.viewport.getScrollPosition()[1] - 130;
+      const estes2scroll = this.viewport.getScrollPosition()[0];
+      //alert(String(estescroll));    
+    
+    this.viewport.scrollToPosition([estes2scroll, estescroll] );
+
+
+
+  }
+
   MostrarArticulo(val: number ){
     this.Cambiarcategoria(val);
     this.RestaurarBuscar();
-    this.control.setValue('');
+
+    setTimeout(()=>{
+
+      this.onScrollToTop();
+    }, 500);
+    
+    
   }
 
   ParaBuscar(){
@@ -120,7 +149,7 @@ export class AppComponent {
 
     this.TamanoIcono = '0px';
 
-    this.IBuscador.focus();
+    //this.IBuscador.focus();
   }
 
   RestaurarBuscar(){
@@ -129,6 +158,9 @@ export class AppComponent {
     this.ColorTitulo = 'white';
 
     this.TamanoIcono = '24px';
+    
+    //HAY QUE REINICIAR EL VALOR DEL INPUT
+
   }
  
 
