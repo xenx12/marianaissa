@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import {FormControl, Validators} from '@angular/forms';
+
 
 
 @Component({
@@ -11,7 +12,8 @@ import {FormControl, Validators} from '@angular/forms';
 
 export class IconmenuComponent implements OnInit {
 
-  
+  @Output() Eventocambiarcategoria = new EventEmitter<number>();
+
   constructor() {
 
     
@@ -20,6 +22,12 @@ export class IconmenuComponent implements OnInit {
 
   ngOnInit(): void {
     
+  }
+
+
+  Cambiarcategorias (numero: number ): void {
+    this.Eventocambiarcategoria.emit(numero);
+   
   }
 
 }

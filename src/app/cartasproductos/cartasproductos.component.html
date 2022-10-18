@@ -1,5 +1,5 @@
       <div class="cartasdeproductos" *ngFor="let producto of productos">
-        <mat-card *ngIf="producto.categoria == categoria" class="example-card" id="{{producto.id}}">
+        <mat-card *ngIf="producto.categoria == categoria || categoria == 99" class="example-card" id="{{producto.id}}">
 
           
               <mat-card-header class="titulocarta" >
