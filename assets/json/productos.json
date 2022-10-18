@@ -25,14 +25,41 @@
         "caracteristicas": "Tijera esculpidora con dientes en un lado y el otro liso para cortar de medios a puntas.",  
         "precio": 11990,
         "categoria": 1    
-      },
-      {  
+      },{  
         "id": 4,  
+        "titulo": "Cepillo Paleta Cerdas Alambre",
+        "img": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1950275_1_2000x.jpg", 
+        "textocorto": "Cepillo paleta desenredante con cerdas de alambre.", 
+        "caracteristicas": "Cepillo paleta desenredante con cerdas de alambre.",  
+        "precio": 4990,
+        "categoria": 2 
+      },
+
+      {  
+        "id": 5,  
         "titulo": "Tormalionic 3500 Negro",
         "img": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1340124_5000x.jpg?v=1655744118", 
         "textocorto": "Secador ultra potente de 2500 W con caudal y presión de aire máximos", 
         "caracteristicas": "Secador ultra potente de 2500 W con caudal y presión de aire máximos La rejilla recubierta de turmalina propicia la ionización natural del aire Cabello más hidratado brillante y luminoso.",  
         "precio": 79900,
-        "categoria": 2 
+        "categoria": 3 
+      },
+      {  
+        "id": 6,  
+        "titulo": "Mini Plancha",
+        "img": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1740008_2000x.jpg", 
+        "textocorto": "Plancha mini precisa para un styling express, que gracias a su tamaño puedes transportar a todas partes.", 
+        "caracteristicas": "Plancha mini precisa para un styling express, que gracias a su tamaño puedes transportar a todas partes.",  
+        "precio": 8990,
+        "categoria": 4 
+      },
+      {  
+        "id": 7,  
+        "titulo": "Navajín Corriente Con Repuesto",
+        "img": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1740187_1_2000x.jpg", 
+        "textocorto": "Navajín tradicional con repuesto para cortes de cabello.", 
+        "caracteristicas": "Navajín tradicional con repuesto para cortes de cabello.",  
+        "precio": 5990,
+        "categoria": 5 
       }
   ]  
