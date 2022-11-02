@@ -92,7 +92,7 @@ export class AppComponent {
 
   ParaWs: String;
 
-  NumeroWs = '56934891361';
+  NumeroWs = '56953523983';
 
   TamanoBuscador = '0%';
 
@@ -273,6 +273,8 @@ export class AppComponent {
     this.RestaurarBuscar();
     this.sidenav.close(); 
     this.Todoslistacarrito = [];
+    this.TotalCarrito = 0;
+    //this.ParaWs = '';
 
   }
 
