@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1666083668494,
+  "timestamp": 1667375050578,
   "index": "/marianaissa/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/marianaissa/favicon.ico",
         "/marianaissa/index.html",
-        "/marianaissa/main.42c64d3d084bb168.js",
+        "/marianaissa/main.79a2beab67f0d4c9.js",
         "/marianaissa/manifest.webmanifest",
         "/marianaissa/polyfills.a7ffaccb7c98c45b.js",
         "/marianaissa/runtime.abe8847bcd4fe8dd.js",
@@ -31,6 +31,7 @@
       "urls": [
         "/marianaissa/assets/icons/cepillo.png",
         "/marianaissa/assets/icons/contijeras.png",
+        "/marianaissa/assets/icons/cuchillos.png",
         "/marianaissa/assets/icons/huellas.png",
         "/marianaissa/assets/icons/icon-128x128.png",
         "/marianaissa/assets/icons/icon-144x144.png",
@@ -44,9 +45,12 @@
         "/marianaissa/assets/icons/maquinilla2.png",
         "/marianaissa/assets/icons/plancha.png",
         "/marianaissa/assets/icons/secador.png",
+        "/marianaissa/assets/icons/shampoo.png",
         "/marianaissa/assets/icons/tijera.png",
         "/marianaissa/assets/icons/tijeras.png",
-        "/marianaissa/assets/json/productos.json"
+        "/marianaissa/assets/img/piccolo55.webp",
+        "/marianaissa/assets/json/productos.json",
+        "/marianaissa/assets/json/respaldo.json"
       ],
       "patterns": []
     }
@@ -55,6 +59,7 @@
   "hashTable": {
     "/marianaissa/assets/icons/cepillo.png": "d484fad008f02dde3090538494709ed32a18cb9e",
     "/marianaissa/assets/icons/contijeras.png": "110a952d0d28f800e02ad8a4a04bd89dc1492a91",
+    "/marianaissa/assets/icons/cuchillos.png": "990c47c064c8ee3bdaca2d2215e0ca3743b3cbaf",
     "/marianaissa/assets/icons/huellas.png": "d5fa163c152f59cc3332e0ebe7966a3833a5182f",
     "/marianaissa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/marianaissa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -68,12 +73,15 @@
     "/marianaissa/assets/icons/maquinilla2.png": "441b67c6524d78d8835255776bdc8bf09128ab4d",
     "/marianaissa/assets/icons/plancha.png": "59dec12137a1af3712f8c5bf510fbb9c0146103d",
     "/marianaissa/assets/icons/secador.png": "29af321cd24d0d7ae52aadff8112b26b60a9a091",
+    "/marianaissa/assets/icons/shampoo.png": "397f208f5be2a73b47f6ff32b89e2fcbf193ae57",
     "/marianaissa/assets/icons/tijera.png": "f5ee25509932b5c6023474ad4dc204a71515a5bc",
     "/marianaissa/assets/icons/tijeras.png": "f51092ef8c2c3b4104c529c8c8627982b4538de5",
-    "/marianaissa/assets/json/productos.json": "f2f3c6c575e3d76ab8752b182e5f12ab3af44b6d",
+    "/marianaissa/assets/img/piccolo55.webp": "2a12b9b2454e3daeb418536fa18ee077d09db3c1",
+    "/marianaissa/assets/json/productos.json": "12c28e3d9efcc948b8883e2d917d88fc250e3ed8",
+    "/marianaissa/assets/json/respaldo.json": "ba9b0a78c35811c56fd0f63fae900b6c2e183be0",
     "/marianaissa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/marianaissa/index.html": "7bc066b203c3382a5b30ccf9ff729fd3c557524c",
-    "/marianaissa/main.42c64d3d084bb168.js": "619b405aeb38b063a3c6c7bcf6ce0b32dfefa785",
+    "/marianaissa/index.html": "8b1665dbeee3ecda2b4cfbf728d2e2b4ca534d57",
+    "/marianaissa/main.79a2beab67f0d4c9.js": "cacca70ed17ba69b209207e1a664560c8923811c",
     "/marianaissa/manifest.webmanifest": "cfed3ffd477e2ab7bf50bf04191821b507fe01f5",
     "/marianaissa/polyfills.a7ffaccb7c98c45b.js": "17972b9db0ed5d7457b63b5b51b49e984ea7c3ea",
     "/marianaissa/runtime.abe8847bcd4fe8dd.js": "77398bf681078cca93da39041ac437135511e235",
